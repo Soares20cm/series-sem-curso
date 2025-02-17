@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login/bootstrap.min.css"/>
+    <title>series sem senso</title>
+    <style>
+        body {
+            color: rgb(5, 5, 2);
+            background-color: rgb(88, 86, 86);
+        }
+        .card-body img{
+            max-width: 100%;
+            height: auto;
+            height: 150px;
+            width: 100%;
+        }
+        .card-body{
+            background-color:rgb(243, 200, 144) ;
+            
+        }
+        .container{
+            padding: 20px;
+        }
+        #carrosel-exemplo{
+            padding:100px;
+        }
+        .carousel-item{
+            object-fit: cover;
+            height: 900px;
+            width: 100%;
+        }
+        header{
+            background-color: rgb(243,  200, 144);
+        }
+
+        
+    </style>
+</head>
+<body>
+    <header id="cabecalho">
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <h1>series em curso.</h1>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                <ul class="nav navbar-nav nav-pills">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#novidades">conteudo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#maisassistidos">+asistidos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#animes">animes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">completos</a>
+                    </li>
+                </ul>
+            </nav>
+            </div>
+    </header>
+
+    <div class="container">
+        <div id="carousel-exemplo" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="https://ingresso-a.akamaihd.net/prd/img/movie/baby/31789778-98d0-445f-8b82-52980acf177e.webp" >
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="https://static.stealthelook.com.br/wp-content/uploads/2023/01/8-series-mais-populares-da-netflix-stranger-things-20230117125738.jpg" >
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="https://static.stealthelook.com.br/wp-content/uploads/2023/01/8-series-mais-populares-da-netflix-dahmer-20230117130226.jpg" >
+                </div>
+            </div>
+        </div>
+        <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+        </button> 
+        <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+            <span class="carousel-control-next-icon"></span>
+        </button> 
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel-exemplo" class="active" data-bs-slide-to="0"></button>
+            <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+        </div>    
+    </div>
+</div>
+    </div>
+    <section>
+    <div class="container">
+        <h1 id="novidades">novidades</h1>
+        <div class="row">
+            <div class="col-12 col-md-4 col-lg-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Ainda Estou Aqui</h5>
+                        <img src="https://ingresso-a.akamaihd.net/prd/img/movie/ainda-estou-aqui/caa28901-930e-44c1-b82d-5b26b83cc57f.webp">
+                        <p class="card-text">serie de ficçao que conquistou o publico teen com misterios e humor.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 col-lg-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title"> the witcher</h5>
+                        <img src="https://pbs.twimg.com/media/ELCclP6WsAcHVLH?format=jpg&name=medium">
+                        <p class="card-text">>ficçao que conquistou o publico teen com misterios ,magia e romance</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 col-lg-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Bridgerton</h5>
+                        <img src="https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2023/12/13/1268030300-bridgerton.jpg">
+                        <p class="card-text"> serie seire serie sobre a realeza e seus costumes, com romance.</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    </section>
+    <section>
+        <div class="container">
+            <h1 id="maisassistidos">mais assistidos</h1>
+            <div class="row">
+                <div class="col-12 col-md-4 col-lg-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">solo leveling 2 shadow </h5>
+                            <img src="https://www.intoxianime.com/wp-content/uploads/2024/11/145502l-213x300.jpg">
+                            <p class="card-text">serie de ficçao que conquistou o publicoo  com misterios e humor.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">Dr.stone:science future</h5>
+                            <img src="https://www.intoxianime.com/wp-content/uploads/2024/11/146479l-213x300.jpg">
+                            <p class="card-text">>ficçao que conquistou o publico teen com misterios ,magia e romance</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5 class="card-title">A-Rank Party wo Ridatsu Shita</h5>
+                            <img src="https://www.intoxianime.com/wp-content/uploads/2024/11/146267l-213x300.jpg">
+                            <p class="card-text"> serie seire serie sobre a realeza e seus costumes romance.</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+        </section>
+        <section>
+            <div class="container">
+                <h1 id="animes">animes da temporada</h1>
+                <div class="row">
+                    <div class="col-12 col-md-4 col-lg-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">serie Fate / Strange Fake 9</h5>
+                                <img src="https://www.intoxianime.com/wp-content/uploads/2024/11/136845l-211x300.jpg">
+                                <p class="card-text">serie de ficçao que conquistou o publico teen com misterios e humor.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Grisaia: Phantom Trigger</h5>
+                                <img src="https://www.intoxianime.com/wp-content/uploads/2024/11/142188l-212x300.jpg">
+                                <p class="card-text">>ficçao que conquistou o publico teen com misterios ,magia e romance</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-3">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title"> serie Link Click Bridon Arc</h5>
+                                <img src="https://www.intoxianime.com/wp-content/uploads/2024/11/link-214x300.webp">
+                                <p class="card-text"> serie seire serie sobre a realeza e seus costumes, com romance.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+            </section>
+            <section>
+                <div class="container">
+                    <h1>filmes em exibiçao</h1>
+                    <div class="row">
+                        <div class="col-12 col-md-4 col-lg-3">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Capitão América: Admirável Mundo</h5>
+                                    <img src="https://ingresso-a.akamaihd.net/prd/img/movie/capitao-america-admiravel-mundo-novo/32bec8c8-408b-4a52-950c-511bb281cf25.webp">
+                                    <p class="card-text">serie de ficçao que conquistou o publico teen com misterios e humor.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-3">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Ainda Estou Aqui filme brasileiro!</h5>
+                                    <img src="https://ingresso-a.akamaihd.net/prd/img/movie/ainda-estou-aqui/caa28901-930e-44c1-b82d-5b26b83cc57f.webp">
+                                    <p class="card-text">>ficçao que conquistou o publico teen com misterios ,magia e romance</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-3">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">O Auto Da Compadecida 2</h5>
+                                    <img src="https://ingresso-a.akamaihd.net/prd/img/movie/o-auto-da-compadecida-2/e0dc0859-44c7-4552-b543-f17dc7c455ee.webp">
+                                    <p class="card-text"> serie seire serie sobre a realeza e seus costumes, com romance.</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                    </div>
+                </div>
+                </section>
+                <section>
+                    <div class="container">
+                        <h1 id="contato">completos</h1>
+                        <div class="row">
+                            <div class="col-12 col-md-4 col-lg-3">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">vandinha</h5>
+                                        <img src="https://i0.wp.com/www.gamersegames.com.br/wp-content/uploads/2022/09/WANDINHA-Netflix.jpg?w=848&ssl=1">
+                                        <p class="card-text">serie de ficçao que conquistou o publico teen com misterios e humor.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4 col-lg-3">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="card-title"> the witcher</h5>
+                                        <img src="https://pbs.twimg.com/media/ELCclP6WsAcHVLH?format=jpg&name=medium">
+                                        <p class="card-text">>ficçao que conquistou o publico teen com misterios ,magia e romance</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4 col-lg-3">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Bridgerton</h5>
+                                        <img src="https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2023/12/13/1268030300-bridgerton.jpg">
+                                        <p class="card-text"> serie seire serie sobre a realeza e seus costumes, com romance.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                    </section>
+                    <div class="container">
+                        <section>
+                            <form>
+                                <label for="name"><strong>sugetão para adiçao na plataforma:</strong></label>
+                                <input type="text" id="name" name="name">
+                            </form>
+                            <button class="nav-link-active" type="button">adicionar</button>
+                        </section>
+                    </div>
+</body>
+<script src="login/bootstrap.bundle.min.js"></script>
+</html>
